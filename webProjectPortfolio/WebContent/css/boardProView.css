@@ -1,0 +1,289 @@
+@charset "UTF-8";
+.boardProView_wrap{
+		padding:15px 0;
+	}
+	.boardProView_wrap .container::after{
+		display:block;
+		clear:both;
+		content:"";
+	}
+	.boardProView_wrap .container{
+		width:950px;
+		margin:0 auto;
+		position:relative;
+	}
+	.proView-left-wrap{
+		width:630px;
+		float:left;
+	}
+	.proView-slider-box{
+		background-color:#999;
+		height:425px;
+	}
+	.bx-wrapper{
+		margin:0;
+		height:360px !important;
+		overflow:hidden;
+		background-color:#999;
+		border-color:#999;
+		box-shadow:0 0 0;
+	}
+	.bx-wrapper img{
+		width:100%;
+	}
+	.bx-viewport{
+		height:100% !important;
+	}
+	.slider{
+		height:100% !important;
+	}
+	.slider li{
+		height:100%;
+	}
+	.slider li a{
+		display:block;
+		height:100%;
+	}
+	.slider li a img{
+		height:100%;
+	}
+	.bx-pager{
+		padding:10px 5px 0;
+		width:100%;
+	}
+	.bx-pager a{
+		display:inline-block;
+		width:60px;
+		height:35px;
+	}
+	.bx-pager a img{
+		width:100%;
+		height:100%;
+	}
+	
+	.proViewInfo h2{
+		padding:10px 0;
+		color:#333;
+	}
+	
+	.proViewInfo .proViewTable{
+		border:1px solid #ccc;
+		font-size:12px;
+	}
+	
+	.proViewTable .line_th{
+		background-color:#fcfbfa;
+		color:#a19d94;
+		font-weight:700;
+	}
+	
+	.proViewTable .line_td{
+		background-color:#fff;
+	}
+	.proViewTable ul li{
+		border-bottom:1px dotted #ccc;
+	}
+	.proViewTable ul li::after{
+		display:block;
+		clear:both;
+		content:"";
+	}
+	.proViewTable ul li:last-child{
+		border-bottom:0;
+	}
+	
+	.proViewTable ul li div{
+		float:left;
+		padding:15px 7px;
+		height:90px;
+	}
+	.proViewTable .line.bigLine .line_th{
+		border-right:1px dotted #ccc;
+	}
+	.proViewTable .line.bigLine div:nth-child(3){
+		border-left:1px dotted #ccc;
+	}
+	.proViewTable .line.bigLine .line_th,
+	.proViewTable .line .line_th{
+		width:20%;	
+	}
+	.proViewTable .line.bigLine .line_td{
+		width:30%;	
+	}
+	.proViewTable .line.info .line_td{
+		text-align:right;
+	}
+	.proViewTable .line .line_td{
+		width:80%;	
+	}
+	.proViewTable ul li div p{
+		padding:2px 0;
+	}
+	.proViewMap{
+		width:100%;
+	}
+	
+	.proViewTable ul li.line.info div{
+		height:60px;
+	}
+	
+	.proViewTable ul li.line.info .line_td p:first-child{
+		float:left;
+	}
+	.proViewTable ul li.line.info .line_td p:last-child{
+		float:right;
+	}
+	
+	.proViewMap{
+		width:100%;
+		padding:5px;
+		margin-top:10px;
+		border:1px solid #ccc;
+	}
+	
+	.proViewMap #map{
+		width:100%;
+		height:300px;
+	}
+	
+	.proView-right-wrap{
+		position:absolute;
+		right:0;
+		top:0;
+		width:300px;
+	}
+	
+	.proView-box{
+		border:1px solid #ccc;
+		padding:15px 20px;
+		margin-bottom:20px;
+		background-color:#fff;
+	}
+	.proView-box.box1{
+		font-size:14px;
+	}
+	.proView-box.box1 div{
+		font-weight:700;
+		padding:5px 0;
+	}
+ 	.proView-box.box1 button{ 
+		border:1px solid #ccc;
+		font-weight:400;
+		width:100%;
+		text-align:center;
+		background-color:#fff;
+		padding:7px 0;
+		cursor:pointer;
+		transition:all .5s;
+	}
+	.proView-box.box1 button:hover{
+		background-color:#ccc;
+		color:#fff;
+	}
+	
+	.proView-box.box2 div{
+		font-weight:700;
+		padding:5px 0;
+	}
+ 	.proView-box.box2 button{ 
+		border:1px solid #f76a0e;
+		font-weight:400;
+		width:100%;
+		text-align:center;
+		color:#f76a0e;
+		background-color:#fff;
+		padding:7px 0;
+		cursor:pointer;
+		transition:all .5s;
+	}
+	.proView-box.box2 button:hover{
+		background-color:#f76a0e;
+		color:#fff;
+	}
+	
+	.proView-box.box2 .proViewUserInfo p{
+		font-size:12px;
+		text-align:center;
+	}
+	
+	.proView-box.box3 .proInfoMsg h4{
+		color:#f76a0e;
+		font-size:14px;
+		padding-bottom:10px;
+	}
+	
+	.proView-box.box3 .proInfoMsg p{
+		font-size:12px;
+		padding-bottom:10px;
+	}
+	
+	.proView-box.box3 .proInfoMsg p img{
+		width:100%;
+	}
+	
+	.proInfoForm{
+		font-size:12px;
+	}
+	
+	.proInfoForm .form_line p{
+		padding:4px 0;
+	}
+	.proInfoForm .form_line p label{
+		font-weight:700;
+	}
+	#proViewPhone{
+		width:100%;
+		padding:5px;
+		font-size:12px;
+		border:1px solid #ccc;
+	}
+	#proViewComment{
+		width:100%;
+		padding:5px;
+		font-size:12px;
+		resize:none;
+		height:70px;
+		border:1px solid #ccc;
+	}
+	#proViewAgree{
+		vertical-align:middle;
+	}
+	.proView-box.box3 .form_line button{
+		width:100%;
+		margin-top:5px;
+		background-color:#f76a0e;
+		color:#fff;
+		font-weight:700;
+		border:1px solid #ccc;
+	    padding: 7px 0;
+	    cursor: pointer;
+	    transition: all .5s;
+	}
+	.proView-box.box3 .form_line button:hover{
+		background-color:#92311c;
+	}
+	
+	.proViewLike label{
+		width:150px;
+		height:150px;
+		display:block;
+		overflow:hidden;
+		position:relative;
+		text-align:center;
+		line-height:40px;
+		color:#fff;
+		font-weight:700;
+		background-color:gold;
+		border-radius:100%;
+		cursor:pointer;
+	}
+	.proViewLike input[type="checkbox"]{
+		position:absolute;left:-999999px;
+		width:1px;
+		height:1px;
+		overflow:hidden;
+		opacity:0;
+	}
+	.proViewLike label.likeDown{
+		background-color:red;
+	}

@@ -1,0 +1,87 @@
+@charset "UTF-8";
+	.header{
+		width:100%;
+		height:50px;
+		padding:0 20px;
+		border-bottom:1px solid #ccc;
+		line-height:50px;
+		position:relative;
+		background-color:#fff;
+	}
+	.header::after{
+		display:block;
+		clear:both;
+		content:"";
+	}
+	.header header{
+		width:100%;
+		height:100%;
+	}
+	.header .logo{
+		height:100%;
+		position:absolute;
+		left:20px;
+		top:0;
+	}
+	.header .logo h1{
+		height: 100%;
+	}
+	.header .logo h1 a{
+		display: block;
+		height: 100%;
+	}
+	.header .logo img{
+		width: 40px;
+		margin-bottom:5px;
+		vertical-align: middle;
+	}
+	.header .nav{
+		float:right;
+		font-size:14px;
+	}
+	
+	.nav ul{
+		float:left;
+	}
+	.nav ul > li{
+		float:left;
+	}
+	
+	.nav .gnb{
+		font-size:14px;
+		font-weight:700;
+	}
+	
+	.nav .gnb li>a{
+		color:#333;
+		display:block;
+		padding:0 15px;
+	}
+	.nav .gnb li{
+		position:relative;
+	}
+	
+	.nav .gnb li > span.gnbNew{
+		width: 15px;
+	    height: 15px;
+	    line-height: 13px;
+	    color: #fff;
+	    text-align: center;
+	    background-color: #f76a0e;
+	    position: absolute;
+	    right: 0;
+	    top: 8px;
+	    font-size: 10px;
+	    display: inline-block;
+	    border-radius: 3px;
+	}
+	.nav .members{
+		margin-left:25px;
+		position:relative;
+	}
+	.nav .members >li>a{
+		font-size:13px;
+		color:#aaa;
+		padding:0 5px;
+		display:block;
+	}
